@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Select elements from the dropdown list:</h2>
+
+    <form action="">
+        <label for="bike">Chose your favorite bike:</label>
+        <select name="bike" id="bike">
+            <option value="yamaha">Yamaha</option>
+            <option value="honda">Honda</option>
+            <option value="kawasaki">Kawasaki</option>
+            <option value="walton">Walton</option>
+        </select><br>
+        <textarea name="message" id="" rows="10" cols="30"></textarea><br>
+        <button>Submit</button>
+
+        <fieldset>
+            <legend>Personal Informations:</legend>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" value="John"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" value="Doe"><br><br>
+            <input type="submit" value="Submit">
+        </fieldset>
+
+        <form action="">
+            <input list="browsers" name="browser">
+            <datalist id="browsers">
+              <option value="Edge">
+              <option value="Firefox">
+              <option value="Chrome">
+              <option value="Opera">
+              <option value="Safari">
+            </datalist>
+            <input type="submit">
+        </form>
+    </form>
+</body>
+</html>
